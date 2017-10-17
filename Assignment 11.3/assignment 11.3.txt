@@ -1,0 +1,31 @@
+Step 1: Login to twitter.
+
+Step 2: From twitter app get all the four required keys.
+
+Step 3: Create a flume.conf file under /usr/local/flume/conf directory.
+
+Step 4: Load source, sink, memory channels, four keys from twitter app, keywords to fetch tweets and other details in flume.conf. 
+
+Step 5: execute the command - flume-ng agent -n TwitterAgent -f '/usr/local/flume/conf/flume.conf'
+
+A file will be created in  /user/flume/tweets/ which contains tweets generated.
+
+======================
+
+Result:
+
+hadoop fs -ls /user/flume/tweets/
+
+-rw-r--r--   1 acadgild supergroup    1873483 2017-07-31 09:11 /user/flume/tweets/FlumeData.1501472389745
+
+hadoop fs -cat /user/flume/tweets/FlumeData.1501472389745
+
+
+???????????????????!(+5)
+9%?????????????????
+https://t.co/Rz0khA9J4P https://t.co/VbL7nBa6Ke?<a href="https://twitter.com/" rel="nofollow">????????</a>^https://pbs.twimg.com/media/DGCLv3oV0AAjwMd.jpg?https://twitter.com/oasissince/status/891866383918563328/photo/1$891866383922999297?Arg?????@MattePZ le dió rt a mi tweet 1-07-2017 || @GiianPa me siguió y me dió me gusta 4-03-2017 || @ginogori24 le dió like a mi comentario en instagram 5-07-2017??^«DELFINA»delfii_lagarde(2017-07-31T09:11:30Z?RT @igoaconfesiones: rt si te parece lindo, fav si no
+
+27. el parcerito https://t.co/pcfaruYyP7?<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>^https://pbs.twimg.com/media/DF5KNchWAAA67OS.jpg?https://twitter.com/igoaconfesiones/status/891231421540577280/photo/1$891866383927042049?Colorado, USA?Hey. Follow me on Wattpad w/ this user. Follow me @ APHCanadieh on IFunny. Follow me w/ the IFunny on Tumblr. I am a weeb, and I'm learning Spanish/Italian.?	2(Ded(JustlikeDenmark)JadeLumi28501(2017-07-31T09:11:30ZD@MsCAcox98 https://t.co/kwgDZQUPf1?????<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>vhttps://pbs.twimg.com/tweet_video_thumb/DGCLvhqUIAAd6ws.jpg?https://twitter.com/JadeLumi28501/status/891866383927042049/photo/1$891866383935516672?
+                              "In the field ???#A4CHUCKIE #A4JC #E4SHAAD #YW #freewade #pathToTheDraft19 #NSU19 Future programmer #OTWHS?????lil tazVinny_jayy(2017-07-31T09:11:30Z?And just like that... sex is cancelled for a while https://t.co/jqTdANJH4q?<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>$891866388108685312?México?según la vida, soy músico. toco, produzco, compongo y a veces canto en @Labourdettemx???rayuelaAlexsaurus_Rawr(2017-07-31T09:11:31Z?Luis "puedo hacer una canción en 30 min o también tardarme 4 meses" Aguirre, pa' servirle a usted.?<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>$891866388108722176"???BUb??BOY/?????????????x&? (??)?RooooooooooC_K(2017-07-31T09:11:31Z???????????????????????3???????????<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>$891866388134055937?Macon, GA<Snapchat // ethanbaileyyy ??
+
+
